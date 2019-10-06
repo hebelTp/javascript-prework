@@ -2,7 +2,7 @@ function getMoveName(argMoveId){
     if(argMoveId == 1){
         return 'kamień';
     }
-    else if(argMove == 2){
+    else if(argMoveId == 2){
         return 'papier';
     }
     else if(argMoveId == 3){
