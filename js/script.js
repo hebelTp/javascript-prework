@@ -93,4 +93,3 @@ function playGame(playerInput){
 
             displayResult(argComputerMove,argPlayerMove);
 }
-playGame(3);
