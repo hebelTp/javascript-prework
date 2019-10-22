@@ -12,7 +12,7 @@ function playGame(playerInput){
         }
         printMessage('Nie znam ruchu o id ' + argMoveId + '.');
         return 'nieznany ruch';
-        }
+    }
     let randomNumber = Math.floor(Math.random() * 3 + 1);
         console.log('Wylosowana liczba to: ' + randomNumber);
     let argComputerMove = getMoveName(randomNumber);
